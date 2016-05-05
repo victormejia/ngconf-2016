@@ -1,1 +1,3 @@
-# TypeScript 2.0 Workshop
+# TypeScript and ES6 Workshop
+
+(Slides)[http:/tinyurl.com/TS-ES6-In60]
