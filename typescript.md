@@ -252,3 +252,42 @@ var Timer = (function () {
     return Timer;
 }());
 ```
+
+## Template Strings
+
+No more string concatenation!
+
+```javascript
+  return `<h1>${title}</h1>`
+```
+
+
+## Destructuring
+```
+var {total, tax} = {total: 9.99, tax: 0.50};
+```
+
+
+## Default and Rest parameters
+```javascript
+  setDetails(make = 'None', model = 'None', year = this.currentYear()) {
+    console.log(make + ' ' + model + ' ' + year);
+  }
+```
+
+Allow a variable number of parameters to be passed to a function:
+
+```
+class Car {
+  //accessories is a "rest parameter"
+  setDetails(make = 'No Make', ...accessories) {
+    console.log(make);
+
+    if (accessories) {
+      for (var i = 0; i < accessories.length; i++) {
+        console.log('\n' + accessories[i]);
+      }
+    }
+  }
+}
+```
