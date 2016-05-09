@@ -45,3 +45,8 @@ Upgrade process:
 	* Pick a component and rewrite it in ng2
 	
 ### Workshop: TypeScript 2 in 60 Minutes
+
+
+### Workshop: Webpack and Angular <3
+Demo: http://thelarkinn.github.io/angular2-webpack-lite/  
+Notes:  https://github.com/victormejia/ngconf-2016/blob/master/webpack.md
